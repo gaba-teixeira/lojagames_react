@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className="flex justify-center  w-full p-2 text-white bg-slate-800">
       <div className="container flex justify-between text-lg">
-        <Link to="/home" className="w-[248px] h-[59px]  top-[35px] left-[43px]">
+        <Link to="/" className="w-[248px] h-[59px]  top-[35px] left-[43px]">
           <img
             src="https://ik.imagekit.io/vzr6ryejm/games/logolg.png?updatedAt=1714775486354"
             alt="logo da loja de games"
@@ -27,10 +27,10 @@ function Navbar() {
         </div>
         <div className="flex gap-4 mt-[14px] text-lg">
           Produtos
-          <Link to="/temas" className="hover:underline">
+          <Link to="/categorias" className="hover:underline">
             Categorias
           </Link>
-          <Link to="/cadastrartema" className="hover:underline">
+          <Link to="/cadastrarcategoria" className="hover:underline">
             Cadastrar categorias
           </Link>
           <Link to="">
